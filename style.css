@@ -2,4 +2,12 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+ 
+
+
+#quienes-somos {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.6); /* transparente */
+    border-radius: 10px;
+}
