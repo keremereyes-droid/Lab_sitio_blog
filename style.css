@@ -2,4 +2,27 @@ html {
     height: 100%;
     width: 100%;
   }
+
+  .footer {
+  background: #1b1b3a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.footer h3 {
+  color: #4ef3c9;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  font-size: 12px;
+}
   
