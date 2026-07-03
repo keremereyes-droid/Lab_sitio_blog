@@ -26,3 +26,126 @@ html {
   font-size: 12px;
 }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+body {
+  background-image: url(Pic/pexels-bosichong-27453112.jpg);
+  background-size: cover;
+  margin: 0px;
+  
+}
+  
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner {
+  display: block;
+  width: 100%; 
+}
+
+.buttonbanner{
+  position: absolute;
+
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  background-color: #34488d8e;
+  color: white;
+  font-size: 15px;
+  font-family: Quicksand;
+  cursor: pointer;
+
+  transition: transform 0.3s ease;
+
+}
+
+.buttonbanner:hover {
+  background-color: #0b1b508e;
+  transform: scale(1.1);
+}
+
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 20px 20px;
+  padding: 20px 20px;
+  background-color: rgba(133, 180, 231, 0.6); /* 60% de opacidad */
+  border-radius: 20px;
+  border: none;
+  font-family: Quicksand;
+  font-size: 15px;
+  color: white;
+  
+}
+
+h2 {
+  text-align: center;
+  font-family: Quicksand;
+  color: #a5dcb9;
+}
+
+.Welcome {
+  color: #9195e0;
+  font-family: Quicksand;
+}
+
+
+.Videogame {
+  color: #9195e0;
+  font-family: Quicksand;
+} 
+
+.World {
+  color: #a5dcb9;
+  font-family: Quicksand;
+}
+
+.bloqueimagenes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 20px;
+
+}
+
+.bloqueimagenes img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px  rgba(0, 0, 0, 0.3);;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.bloqueimagenes img:hover {
+  transform: scale(1.1);
+}
