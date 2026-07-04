@@ -1,8 +1,8 @@
 html {
     height: 100%;
     width: 100%;
-  }
- 
+}
+
 
 
 #quienes-somos {
@@ -10,7 +10,7 @@ html {
     margin: 50px auto;
     background: rgba(0, 0, 0, 0.6); /* transparente */
     border-radius: 10px;
-  
+} 
 .encabezado {
   position: sticky;
   top: 0;
@@ -62,7 +62,7 @@ header {
   border-radius: brown;
   font-size: 0.9rem;
   font-weight: 500;
-
+}
   .footer {
   background: #1b1b3a;
   color: white;
